@@ -15,7 +15,7 @@ $(document).ready(function() {
     function getGiphy(clickelement) {
 
         var subject = $(clickelement).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=NshS51SjbOwAsmY01cjQCInJLamEKGxt&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=NshS51SjbOwAsmY01cjQCInJLamEKGxt&limit=10";
 
         var $gifArea = $("#gifArea");
 
